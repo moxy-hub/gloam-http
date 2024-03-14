@@ -1,6 +1,6 @@
 {
   "name": "gloam-http",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Moxy",
   "description": "基于java-gloam开发框架封装的http基础能力包",
   "type": "module",
