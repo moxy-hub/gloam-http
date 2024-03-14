@@ -1,6 +1,6 @@
 {
   "name": "gloam-http",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Moxy",
   "description": "基于java-gloam开发框架封装的http基础能力包",
   "type": "module",
@@ -34,5 +34,6 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
     "vitest": "^1.3.1"
-  }
+  },
+  "license": "Apache 2.0"
 }
