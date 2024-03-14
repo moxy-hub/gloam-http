@@ -13,8 +13,8 @@ import {JSEncrypt} from "jsencrypt";
 export const aesEncryptHeader = (
   token: string,
   nonce: string,
-  aesKeyHeader: string = "WdzH675478d6df4359987cf2f90c6d89",
-  splip: string = "-:WDZH:TIME:-"
+  aesKeyHeader: string = "Gloam5d8rv96jhcyh96781dmkijse5c7",
+  splip: string = "-:GLOAM:TIME:-"
 ): string => {
   const content = nonce + splip + Date.now().toString() + splip + token;
   return aesEncryptData(content, aesKeyHeader);

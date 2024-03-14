@@ -1,3 +1,8 @@
+/**
+ * gloam-http
+ * @description a http framework base on axios with filter,event,encrypt...
+ * @author moxy
+ */
 import {HttpClient} from "./httpClient";
 import {HttpCanceler} from "./httpCancel";
 import {ContentTypeEnum, MethodEnum} from "./enum";

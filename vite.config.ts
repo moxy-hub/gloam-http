@@ -11,7 +11,7 @@ export default defineConfig({
       fileName: 'gloamHttp'
     },
     rollupOptions:{
-      external:['axios']
+      external:['axios','crypto-js','dayjs','jsencrypt']
     }
   }
 })
